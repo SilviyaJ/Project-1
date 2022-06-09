@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import Sil, { Jes, Praba } from "./comp";
+import'bootstrap/dist/css/bootstrap.min.css'
+import'bootstrap-icons/font/bootstrap-icons.css'
+import { BSsample } from "./BSsample";
+// import { Custo } from "./Custo";
+import { Prop } from "./Prop";
+import { Extract } from "./Extract";
+import { Seasons } from "./Seasons";
+import { Count } from "./Count";
+import { Table } from "./Table";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App=()=>{
+    return(
+        <> 
+        <h1>welcome to viya-way</h1>
+   <p> way to nature</p>
+   {/* <Sil/>
+   <Jes/>
+   <Praba/>
+   <BSsample/> */}
+   {/* <Custo/> */}
+   {/* <Prop where="download.jpg" length="100px" breadth="100px"/> */}
+   {/* <Extract/> */}
+   {/* <Seasons/> */}
+   {/* <Count/> */}
+   <Table/>
+   </>
+    )
+   
 }
 
 export default App;
