@@ -1,19 +1,21 @@
 import Sil, { Jes, Praba } from "./comp";
 import'bootstrap/dist/css/bootstrap.min.css'
 import'bootstrap-icons/font/bootstrap-icons.css'
-import { BSsample } from "./BSsample";
+import { List } from "./List";
+// import { BSsample } from "./BSsample";
 // import { Custo } from "./Custo";
-import { Prop } from "./Prop";
-import { Extract } from "./Extract";
-import { Seasons } from "./Seasons";
-import { Count } from "./Count";
-import { Table } from "./Table";
+// import { Prop } from "./Prop";
+// import { Extract } from "./Extract";
+// import { Seasons } from "./Seasons";
+// import { Count } from "./Count";
+// import { Table } from "./Table";
 
 const App=()=>{
     return(
         <> 
-        <h1>welcome to viya-way</h1>
-   <p> way to nature</p>
+        <List/>
+        {/* <h1>welcome to viya-way</h1>
+   <p> way to nature</p> */}
    {/* <Sil/>
    <Jes/>
    <Praba/>
@@ -23,7 +25,7 @@ const App=()=>{
    {/* <Extract/> */}
    {/* <Seasons/> */}
    {/* <Count/> */}
-   <Table/>
+   {/* <Table/> */}
    </>
     )
    
