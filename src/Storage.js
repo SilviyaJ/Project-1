@@ -11,7 +11,7 @@ let records=[
     } ,
     {
         "ename":"anu",
-        "estudy":"muthyammal",
+        "estudy":"muthayammal",
         "age":24,
     }   
 ]
@@ -25,7 +25,15 @@ const loading=()=>{
     records=JSON.parse(temp)
 }
 
+export const executeCreating=(obj)=>{
+    loading()
+    records.push(obj)
+    affect()
+}
+
 export const executeListing=()=>{
     loading()
     return records
 }
+
+
