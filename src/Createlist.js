@@ -20,7 +20,7 @@ return(
         <>
             <Create/>
             <button className="btn btn-outline-secondary" onClick={()=>{
-                setCview(false)
+                setCview(true)
                 window.location.assign("/")
             }}>
                 <i class="bi bi-skip-backward-circle-fill"></i>
@@ -30,7 +30,7 @@ return(
         :
         <>
             <button className="btn btn-outline-success" onClick={()=>{
-                setCview(true)
+                setCview(false)
             }}>
                 <i class="bi bi-newspaper"></i>
             </button>
