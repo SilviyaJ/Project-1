@@ -31,9 +31,8 @@ export const executeDeleting=(unique)=>{
         return ele.ename!==unique
 
     })
-    affect(
-        alert(unique+"has terminated")
-    )
+    affect()
+    alert(unique+"has terminated")
 }
 
 export const executeUpdating=(key)=>{
