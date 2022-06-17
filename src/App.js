@@ -1,9 +1,9 @@
 // import Sil, { Jes, Praba } from "./comp";
 import'bootstrap/dist/css/bootstrap.min.css'
 import'bootstrap-icons/font/bootstrap-icons.css'
+import { Readlist } from './Readlist';
 //import { List } from "./List";
 //import {Createlist} from "./Createlist";
-// import { Readlist } from './Readlist';
 // import { BSsample } from "./BSsample";
 // import { Custo } from "./Custo";
 // import { Prop } from "./Prop";
@@ -16,9 +16,8 @@ const App=()=>{
     return(
         <> 
         {/* <List/> */}
-<h1>Zealous</h1>
        {/* <Createlist/> */}
-       {/* <Readlist/> */}
+       <Readlist/>
         {/* <h1>welcome to viya-way</h1>
    <p> way to nature</p> */}
    {/* <Sil/>
